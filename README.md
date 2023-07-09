@@ -14,4 +14,4 @@ Using diffchecker in VSCode showed that they have exactly the same errors, which
 - `docker_full_test_results.log` is the full output of the command above for the docker build run locally on my computer
 - `docker_summary_test_results` is just the summary test info for the output
 - `gitpod_full_test_results.log` and `gitpod_summary_test_results.log` are the same for the Gitpod build
-- `myoutput.log` is the full `pytest pandas` output in the Gitpod environment. I don't have the equivalent for the docker build because my computer cannot run it.
+- `myoutput.log` is the full `pytest pandas` output in the Gitpod environment. I don't have the equivalent for the docker build because my computer cannot run it without the process being killed prematurely.
