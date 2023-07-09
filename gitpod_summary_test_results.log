@@ -1,0 +1,150 @@
+=========================== short test summary info ============================
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql[mysql_pymysql_engine]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql[mysql_pymysql_conn]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql[postgresql_psycopg2_engine]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql[postgresql_psycopg2_conn]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes[mysql_pymysql_engine]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes[mysql_pymysql_conn]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes[postgresql_psycopg2_engine]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes[postgresql_psycopg2_conn]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes_missing[NoneType-mysql_pymysql_engine]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes_missing[NoneType-mysql_pymysql_conn]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes_missing[NoneType-postgresql_psycopg2_engine]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes_missing[NoneType-postgresql_psycopg2_conn]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes_missing[float0-mysql_pymysql_engine]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes_missing[float0-mysql_pymysql_conn]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes_missing[float0-postgresql_psycopg2_engine]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes_missing[float0-postgresql_psycopg2_conn]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes_missing[NaTType-mysql_pymysql_engine]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes_missing[NaTType-mysql_pymysql_conn]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes_missing[NaTType-postgresql_psycopg2_engine]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes_missing[NaTType-postgresql_psycopg2_conn]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes_missing[float1-mysql_pymysql_engine]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes_missing[float1-mysql_pymysql_conn]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes_missing[float1-postgresql_psycopg2_engine]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes_missing[float1-postgresql_psycopg2_conn]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes_missing[NAType-mysql_pymysql_engine]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes_missing[NAType-mysql_pymysql_conn]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes_missing[NAType-postgresql_psycopg2_engine]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes_missing[NAType-postgresql_psycopg2_conn]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes_missing[Decimal-mysql_pymysql_engine]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes_missing[Decimal-mysql_pymysql_conn]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes_missing[Decimal-postgresql_psycopg2_engine]
+FAILED pandas/tests/io/test_sql.py::test_dataframe_to_sql_arrow_dtypes_missing[Decimal-postgresql_psycopg2_conn]
+FAILED pandas/tests/io/test_sql.py::test_to_sql[None-mysql_pymysql_engine] - ...
+FAILED pandas/tests/io/test_sql.py::test_to_sql[None-mysql_pymysql_conn] - sq...
+FAILED pandas/tests/io/test_sql.py::test_to_sql[None-postgresql_psycopg2_engine]
+FAILED pandas/tests/io/test_sql.py::test_to_sql[None-postgresql_psycopg2_conn]
+FAILED pandas/tests/io/test_sql.py::test_to_sql[multi-mysql_pymysql_engine]
+FAILED pandas/tests/io/test_sql.py::test_to_sql[multi-mysql_pymysql_conn] - s...
+FAILED pandas/tests/io/test_sql.py::test_to_sql[multi-postgresql_psycopg2_engine]
+FAILED pandas/tests/io/test_sql.py::test_to_sql[multi-postgresql_psycopg2_conn]
+FAILED pandas/tests/io/test_sql.py::test_to_sql_exist[replace-1-mysql_pymysql_engine]
+FAILED pandas/tests/io/test_sql.py::test_to_sql_exist[replace-1-mysql_pymysql_conn]
+FAILED pandas/tests/io/test_sql.py::test_to_sql_exist[replace-1-postgresql_psycopg2_engine]
+FAILED pandas/tests/io/test_sql.py::test_to_sql_exist[replace-1-postgresql_psycopg2_conn]
+FAILED pandas/tests/io/test_sql.py::test_to_sql_exist[append-2-mysql_pymysql_engine]
+FAILED pandas/tests/io/test_sql.py::test_to_sql_exist[append-2-mysql_pymysql_conn]
+FAILED pandas/tests/io/test_sql.py::test_to_sql_exist[append-2-postgresql_psycopg2_engine]
+FAILED pandas/tests/io/test_sql.py::test_to_sql_exist[append-2-postgresql_psycopg2_conn]
+FAILED pandas/tests/io/test_sql.py::test_to_sql_exist_fail[mysql_pymysql_engine]
+FAILED pandas/tests/io/test_sql.py::test_to_sql_exist_fail[mysql_pymysql_conn]
+FAILED pandas/tests/io/test_sql.py::test_to_sql_exist_fail[postgresql_psycopg2_engine]
+FAILED pandas/tests/io/test_sql.py::test_to_sql_exist_fail[postgresql_psycopg2_conn]
+FAILED pandas/tests/io/test_sql.py::test_read_iris_query[mysql_pymysql_engine]
+FAILED pandas/tests/io/test_sql.py::test_read_iris_query[mysql_pymysql_conn]
+FAILED pandas/tests/io/test_sql.py::test_read_iris_query[postgresql_psycopg2_engine]
+FAILED pandas/tests/io/test_sql.py::test_read_iris_query[postgresql_psycopg2_conn]
+FAILED pandas/tests/io/test_sql.py::test_read_iris_query_chunksize[mysql_pymysql_engine]
+FAILED pandas/tests/io/test_sql.py::test_read_iris_query_chunksize[mysql_pymysql_conn]
+FAILED pandas/tests/io/test_sql.py::test_read_iris_query_chunksize[postgresql_psycopg2_engine]
+FAILED pandas/tests/io/test_sql.py::test_read_iris_query_chunksize[postgresql_psycopg2_conn]
+FAILED pandas/tests/io/test_sql.py::test_read_iris_query_expression_with_parameter[mysql_pymysql_engine]
+FAILED pandas/tests/io/test_sql.py::test_read_iris_query_expression_with_parameter[mysql_pymysql_conn]
+FAILED pandas/tests/io/test_sql.py::test_read_iris_query_expression_with_parameter[postgresql_psycopg2_engine]
+FAILED pandas/tests/io/test_sql.py::test_read_iris_query_expression_with_parameter[postgresql_psycopg2_conn]
+FAILED pandas/tests/io/test_sql.py::test_read_iris_query_string_with_parameter[mysql_pymysql_engine]
+FAILED pandas/tests/io/test_sql.py::test_read_iris_query_string_with_parameter[mysql_pymysql_conn]
+FAILED pandas/tests/io/test_sql.py::test_read_iris_query_string_with_parameter[postgresql_psycopg2_engine]
+FAILED pandas/tests/io/test_sql.py::test_read_iris_query_string_with_parameter[postgresql_psycopg2_conn]
+FAILED pandas/tests/io/test_sql.py::test_read_iris_table[mysql_pymysql_engine]
+FAILED pandas/tests/io/test_sql.py::test_read_iris_table[mysql_pymysql_conn]
+FAILED pandas/tests/io/test_sql.py::test_read_iris_table[postgresql_psycopg2_engine]
+FAILED pandas/tests/io/test_sql.py::test_read_iris_table[postgresql_psycopg2_conn]
+FAILED pandas/tests/io/test_sql.py::test_read_iris_table_chunksize[mysql_pymysql_engine]
+FAILED pandas/tests/io/test_sql.py::test_read_iris_table_chunksize[mysql_pymysql_conn]
+FAILED pandas/tests/io/test_sql.py::test_read_iris_table_chunksize[postgresql_psycopg2_engine]
+FAILED pandas/tests/io/test_sql.py::test_read_iris_table_chunksize[postgresql_psycopg2_conn]
+FAILED pandas/tests/io/test_sql.py::test_to_sql_callable[mysql_pymysql_engine]
+FAILED pandas/tests/io/test_sql.py::test_to_sql_callable[mysql_pymysql_conn]
+FAILED pandas/tests/io/test_sql.py::test_to_sql_callable[postgresql_psycopg2_engine]
+FAILED pandas/tests/io/test_sql.py::test_to_sql_callable[postgresql_psycopg2_conn]
+FAILED pandas/tests/io/test_sql.py::test_default_type_conversion[mysql_pymysql_engine]
+FAILED pandas/tests/io/test_sql.py::test_default_type_conversion[mysql_pymysql_conn]
+FAILED pandas/tests/io/test_sql.py::test_read_procedure[mysql_pymysql_engine]
+FAILED pandas/tests/io/test_sql.py::test_read_procedure[mysql_pymysql_conn]
+FAILED pandas/tests/io/test_sql.py::test_copy_from_callable_insertion_method[2-postgresql_psycopg2_engine]
+FAILED pandas/tests/io/test_sql.py::test_copy_from_callable_insertion_method[2-postgresql_psycopg2_conn]
+FAILED pandas/tests/io/test_sql.py::test_copy_from_callable_insertion_method[Success!-postgresql_psycopg2_engine]
+FAILED pandas/tests/io/test_sql.py::test_copy_from_callable_insertion_method[Success!-postgresql_psycopg2_conn]
+FAILED pandas/tests/io/test_sql.py::test_insertion_method_on_conflict_do_nothing[postgresql_psycopg2_engine]
+FAILED pandas/tests/io/test_sql.py::test_insertion_method_on_conflict_do_nothing[postgresql_psycopg2_conn]
+FAILED pandas/tests/io/test_sql.py::test_insertion_method_on_conflict_update[mysql_pymysql_engine]
+FAILED pandas/tests/io/test_sql.py::test_insertion_method_on_conflict_update[mysql_pymysql_conn]
+FAILED pandas/tests/io/parser/test_network.py::TestS3::test_read_s3_fails - b...
+ERROR pandas/tests/io/parser/test_network.py::TestS3::test_parse_public_s3_bucket
+ERROR pandas/tests/io/parser/test_network.py::TestS3::test_parse_private_s3_bucket
+ERROR pandas/tests/io/parser/test_network.py::TestS3::test_parse_public_s3n_bucket
+ERROR pandas/tests/io/parser/test_network.py::TestS3::test_parse_public_s3a_bucket
+ERROR pandas/tests/io/parser/test_network.py::TestS3::test_parse_public_s3_bucket_nrows
+ERROR pandas/tests/io/parser/test_network.py::TestS3::test_parse_public_s3_bucket_chunked
+ERROR pandas/tests/io/parser/test_network.py::TestS3::test_parse_public_s3_bucket_chunked_python
+ERROR pandas/tests/io/parser/test_network.py::TestS3::test_parse_public_s3_bucket_python
+ERROR pandas/tests/io/parser/test_network.py::TestS3::test_infer_s3_compression
+ERROR pandas/tests/io/parser/test_network.py::TestS3::test_parse_public_s3_bucket_nrows_python
+ERROR pandas/tests/io/parser/test_network.py::TestS3::test_read_s3_fails_private
+ERROR pandas/tests/io/parser/test_network.py::TestS3::test_read_csv_handles_boto_s3_object
+ERROR pandas/tests/io/parser/test_network.py::TestS3::test_read_csv_chunked_download
+ERROR pandas/tests/io/parser/test_network.py::TestS3::test_read_s3_with_hash_in_key
+ERROR pandas/tests/io/parser/test_network.py::TestS3::test_read_feather_s3_file_path
+ERROR pandas/tests/io/test_fsspec.py::test_from_s3_csv - botocore.exceptions....
+ERROR pandas/tests/io/test_fsspec.py::test_s3_protocols[s3] - botocore.except...
+ERROR pandas/tests/io/test_fsspec.py::test_s3_protocols[s3a] - botocore.excep...
+ERROR pandas/tests/io/test_fsspec.py::test_s3_protocols[s3n] - botocore.excep...
+ERROR pandas/tests/io/test_fsspec.py::test_s3_parquet - botocore.exceptions.E...
+ERROR pandas/tests/io/test_parquet.py::TestParquetPyArrow::test_s3_roundtrip_explicit_fs
+ERROR pandas/tests/io/test_parquet.py::TestParquetPyArrow::test_s3_roundtrip
+ERROR pandas/tests/io/test_parquet.py::TestParquetPyArrow::test_s3_roundtrip_for_dir[partition_col0]
+ERROR pandas/tests/io/test_parquet.py::TestParquetPyArrow::test_s3_roundtrip_for_dir[partition_col1]
+ERROR pandas/tests/io/test_parquet.py::TestParquetFastParquet::test_s3_roundtrip
+ERROR pandas/tests/io/test_s3.py::test_read_without_creds_from_pub_bucket - b...
+ERROR pandas/tests/io/test_s3.py::test_read_with_creds_from_pub_bucket - boto...
+ERROR pandas/tests/io/excel/test_readers.py::TestReaders::test_read_from_s3_url[('xlrd', '.xls')]
+ERROR pandas/tests/io/excel/test_readers.py::TestReaders::test_read_from_s3_url[('openpyxl', '.xlsx')]
+ERROR pandas/tests/io/excel/test_readers.py::TestReaders::test_read_from_s3_url[('openpyxl', '.xlsm')]
+ERROR pandas/tests/io/excel/test_readers.py::TestReaders::test_read_from_s3_url[(None, '.xls')]
+ERROR pandas/tests/io/excel/test_readers.py::TestReaders::test_read_from_s3_url[(None, '.xlsx')]
+ERROR pandas/tests/io/excel/test_readers.py::TestReaders::test_read_from_s3_url[(None, '.xlsm')]
+ERROR pandas/tests/io/excel/test_readers.py::TestReaders::test_read_from_s3_url[('pyxlsb', '.xlsb')]
+ERROR pandas/tests/io/excel/test_readers.py::TestReaders::test_read_from_s3_url[('odf', '.ods')]
+ERROR pandas/tests/io/excel/test_readers.py::TestReaders::test_read_from_s3_object[('xlrd', '.xls')]
+ERROR pandas/tests/io/excel/test_readers.py::TestReaders::test_read_from_s3_object[('openpyxl', '.xlsx')]
+ERROR pandas/tests/io/excel/test_readers.py::TestReaders::test_read_from_s3_object[('openpyxl', '.xlsm')]
+ERROR pandas/tests/io/excel/test_readers.py::TestReaders::test_read_from_s3_object[(None, '.xls')]
+ERROR pandas/tests/io/excel/test_readers.py::TestReaders::test_read_from_s3_object[(None, '.xlsx')]
+ERROR pandas/tests/io/excel/test_readers.py::TestReaders::test_read_from_s3_object[(None, '.xlsm')]
+ERROR pandas/tests/io/excel/test_readers.py::TestReaders::test_read_from_s3_object[('pyxlsb', '.xlsb')]
+ERROR pandas/tests/io/excel/test_readers.py::TestReaders::test_read_from_s3_object[('odf', '.ods')]
+ERROR pandas/tests/io/excel/test_style.py::test_styler_to_s3 - botocore.excep...
+ERROR pandas/tests/io/json/test_compression.py::test_with_s3_url[None] - boto...
+ERROR pandas/tests/io/json/test_compression.py::test_with_s3_url[gzip] - boto...
+ERROR pandas/tests/io/json/test_compression.py::test_with_s3_url[bz2] - botoc...
+ERROR pandas/tests/io/json/test_compression.py::test_with_s3_url[zip] - botoc...
+ERROR pandas/tests/io/json/test_compression.py::test_with_s3_url[xz] - botoco...
+ERROR pandas/tests/io/json/test_compression.py::test_with_s3_url[tar] - botoc...
+ERROR pandas/tests/io/json/test_compression.py::test_with_s3_url[zstd] - boto...
+ERROR pandas/tests/io/json/test_pandas.py::TestPandasContainer::test_read_s3_jsonl
+ERROR pandas/tests/io/json/test_pandas.py::TestPandasContainer::test_to_s3 - ...
+ERROR pandas/tests/io/xml/test_to_xml.py::test_s3_permission_output[lxml] - b...
+ERROR pandas/tests/io/xml/test_to_xml.py::test_s3_permission_output[etree] - ...
+= 93 failed, 2066 passed, 177 skipped, 52 xfailed, 55 errors in 571.03s (0:09:31) =
